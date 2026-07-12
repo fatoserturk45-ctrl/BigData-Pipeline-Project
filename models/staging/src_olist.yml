@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: bronze_olist
+    database: analytics_db
+    schema: bronze
+    tables:
+      - name: raw_orders
+      - name: raw_customers
