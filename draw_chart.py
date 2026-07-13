@@ -25,9 +25,9 @@ def main():
     
     plt.tight_layout()
     
-    print("Grafik başarıyla oluşturuldu! Ekrana geliyor...")
+    print("Grafik başarıyla oluşturuldu! 'grafik.png' dosyasına kaydedildi.")
     plt.savefig("grafik.png")
-
+    plt.close()
 if __name__ == "__main__":
     main()
 
